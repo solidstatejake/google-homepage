@@ -1,0 +1,101 @@
+body {
+  background: white;
+  color: rgb(71, 70, 70);
+}
+
+/* Handle the navigation menu in the header */
+header {
+  margin: 10px;
+  height: 30px;
+}
+
+/* Rules common amongst elements in the header*/
+.top {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(71, 70, 70);
+  display: inline-block;
+}
+
+/*Rules common amongst elements in the left part of the top header*/
+.left{
+  float: left;
+  margin: 10px 20px 0 20px;
+}
+
+.right {
+  float: right;
+  margin: 10px 20px 0 20px;
+}
+
+header #about, #gmail {
+  margin-right: 20px;
+}
+
+
+/* Handle the google logo */
+.logo {
+  margin: 10px;
+  height: 100px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 40px;
+}
+.logo #google-logo {
+  width: 300px; height: 100px;
+}
+
+/* The search bar*/
+
+/* The form */
+
+.search {
+  width: 500px; height: 70px; 
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+/* The actual search bar */
+.searchbox {
+  width: 500px;
+  padding: 13px;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(0,0,0, 0.4);
+  font-size: 1.2em;
+}
+
+/* Edit what happens to the search bar when user clicks on it */
+.searchbox:focus {
+  outline: none;
+  box-shadow: 2px 2px 10px rgb(0,0,0);
+}
+
+/* The submit and I'm Feeling Lucky button */
+.search-button, .lucky-button{
+  margin: 20px;
+  padding: 20px 40px;
+  width: 200px;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 700;
+  border: none;
+  color: rgb(107, 106, 106);
+  background-color: rgb(240, 238, 238)
+}
+
+/* Format links on the page */
+a {
+  color: rgb(71, 70, 70);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(99, 97, 97);
+  text-decoration: underline;
+}
